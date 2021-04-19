@@ -1,0 +1,52 @@
+.transactionHistory{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 30px;
+
+}
+
+thead {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  caption-side: bottom;
+  color: rgb(58, 55, 55);
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(101, 198, 255);
+}
+
+thead th {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid rgb(0, 119, 255);
+  padding: 20px;
+}
+
+th {
+  letter-spacing: 2px;
+  border-collapse: collapse;
+
+}
+
+td {
+  letter-spacing: 1px;
+  border-collapse: collapse;
+  padding: 10px;
+  border: 1px solid rgb(0, 119, 255);
+}
+
+tbody td {
+  text-align: center;
+}
+
+thead th:nth-child(1) {
+  width: 10%;
+}
+
+thead th:nth-child(2) {
+  width: 15%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}

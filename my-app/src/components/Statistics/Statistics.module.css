@@ -1,0 +1,35 @@
+.statistics{
+    background-color: lightgray;
+    /* display: flex;
+    flex-direction: column; */
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* height: 150px; */
+    text-align: center;
+    padding: 15px;
+}
+.statList{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    justify-content: space-between;
+    margin: 0px;    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    color: #fff;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.percentage{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
