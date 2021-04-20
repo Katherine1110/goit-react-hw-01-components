@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import defaultImage from "./default.jpeg";
-import styles from './Profile.module.css'
+import React from 'react';
+import PropTypes from 'prop-types';
+import defaultImage from './default.jpeg';
+import styles from './Profile.module.css';
 
 const Profile = ({ name, avatar, tag, location, stats }) => {
   return (

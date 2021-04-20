@@ -1,9 +1,8 @@
-.transactionHistory{
+.transactionHistory {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   padding: 30px;
-
 }
 
 thead {
@@ -25,7 +24,6 @@ thead th {
 th {
   letter-spacing: 2px;
   border-collapse: collapse;
-
 }
 
 td {
